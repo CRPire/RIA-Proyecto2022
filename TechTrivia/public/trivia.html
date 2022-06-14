@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Trivia</title>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-dark">
+      <div class="start_btn"><button>Comenzar trivia</button></div>
+      <audio controls autoplay loop>
+        <source src="music/musica.mp3" type="audio/mp3">
+                Tu navegador no soporta audio HTML5.
+      </audio>
+ 
+      <div class="info_box">
+        <div class="info-title card-header"><span>Seleccione su configuración deseada</span></div>
+        <div class="info-list">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="">Cantidad de preguntas</label>
+                        <input type="number" value="10" min="1" max="30" class="form-control" id="cantQuestions">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="">Dificultad</label>
+                        <select class="custom-select" name="difficulty" id="difficulty">
+                            <option value="easy">Fácil</option>
+                            <option selected="selected" value="medium">Media</option>
+                            <option value="hard">Difícil</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" card-footer buttons">
+            <button class="quit">Salir</button>
+            <button class="restart">Continuar</button>
+        </div>
+    </div>
+
+    <div class="quiz_box">
+        <header>
+            <div class="title">Tech Trivia</div>
+            <div class="timer">
+                <div class="time_left_txt">Tiempo</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+            </div>
+            <div class="option_list">
+            </div>
+        </section>
+        <footer class="card-footer">
+            <div class="total_que ">
+            </div>
+            <button class="next_btn">Siguiente</button>
+        </footer>
+    </div>
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">¡Has completado la trivia!</div>
+        <div class="score_text">
+        </div>
+        <div class="buttons">
+            <button class="restart">Volver a jugar</button>
+            <button class="quit">Salir</button>
+        </div>
+    </div>
+
+    <script src="js/questions.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

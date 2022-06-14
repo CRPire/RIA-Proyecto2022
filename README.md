@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+## TechTrivia: RIA
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Segunda defensa RIA - Tecnólogo en Informática
 
-## Available Scripts
+Grupo integrado por:
 
-In the project directory, you can run:
+* Aldo Medina - C.I.: 5.357.235-3
+* Carlos Pire - C.I.: 6.287.061-5
+* Nicolas Stagno - C.I.: 3.347.233-3
 
-### `npm start`
+Para la web de Trivia con consigna Tecnología y Computación.
+Se utilizó la siguiente tecnología:
+* HTML
+* CSS
+* JavaScript Vanilla
+* Bootstrap
+* Node
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+El contenido para las preguntas/respuestas de la Trivia se obtienen desde:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+https://opentdb.com/api.php?amount=50&category=18&type=multiple
 
-### `npm test`
+Para la web de Búsqueda de Eventos Peligrosos.
+Se utilizó la siguiente tecnología:
+* HTML
+* CSS
+* React
+* Bootstrap
+ 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* El contenido se obtiene desde:
 
-### `npm run build`
+* Mapas desde la API desde Google Maps
+* Iconos desde https://iconify.design
+* Datos de eventos de la NASA https://eonet.sci.gsfc.nasa.gov/api/v2.1/events
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para la web de Búsqueda de Carpinchos.
+Se utilizó la siguiente tecnología:
+* HTML
+* CSS
+* React
+* Bootstrap
+* Combobox https://reach.tech/combobox/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* El contenido se obtiene desde:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Mapas desde la API de Google Maps https://www.npmjs.com/package/@react-google-maps/api
+* Geolocalización https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/getCurrentPosition
+* Mapas https://snazzymaps.com/style/8097/wy
+* Autocompletar Lugares https://www.npmjs.com/package/use-places-autocomplete
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Instrucciones de instalacción:
+* Instalar Node junto a NPM.
+* Posicionarse en TechTrivia.
+* Ejecutar en la consola npm install.
+* Ejecutar en la consola npm start.
+* Posicionarse en Búsqueda de eventos peligrosos.
+* Ejecutar en la consola npm install.
+* Ejecutar en la consola npm start.
+* Posicionarse en BuscadorCarpinchos.
+* Ejecutar en la consola npm install.
+* Ejecutar en la consola npm start.
+* La web ya estará expuesta en localhost:8080 accesible desde cualquier browser!
