@@ -61,4 +61,4 @@ Se utilizó la siguiente tecnología:
 * Posicionarse en BuscadorCarpinchos.
 * Ejecutar en la consola npm install.
 * Ejecutar en la consola npm start.
-* La web ya estará expuesta en localhost:8080 accesible desde cualquier browser!
+* La web ya estará expuesta y accesible desde cualquier browser!
